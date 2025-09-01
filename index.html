@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POMODORO TIMER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
 
 </head>
 <body>
-    <div class="Container">
-        <h1> ⏳Pomodoro Study Timer</h1>
-            <div id="timer">25:00</div>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card text-center p-4 shadow" style="width: 500px; height: 350px;">
+        <h1 class="mb-3">⏳ Pomodoro Timer</h1>
+        <div id="timer" class="display-4  mt-3 mb-3">25:00</div>
+        <div class="d-flex justify-content-center gap-2 mb-3 mt-3">
             <div class="buttons">
                 <button onclick="startTimer()"> START </button>
                 <button onclick="pauseTimer()"> PAUSE </button>
                 <button onclick="ResetTimer()"> RESET </button>
             </div>
-            <p id="Status"> STUDY TIME</p>
+            <p id="Status" class="text-muted"> STUDY TIME</p>
     </div>
     </div>
 
