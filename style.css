@@ -1,4 +1,23 @@
 body{
     background-color: rgb(125, 125, 216);
     font-family: Arial, sans-serif;
+    
+}
+#timer {
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+    background-color: blue;
+    transition: transform 0.3s ease;
 }
