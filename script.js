@@ -24,7 +24,7 @@ function startTimer() {
                 document.getElementById("Status").innerText = "✅ BREAK TIME!";
                 isRunning = false;
             }
-        }, 1000); // run every 1 second
+        }, 1000); // to run every 1 second
     }
 }
 
@@ -38,11 +38,8 @@ function pauseTimer() {
 // Reset the timer
 function ResetTimer() {
     clearInterval(timer);
-    timeLeft = 25 * 60; // reset to 25 mins
+    timeLeft = 25 * 60; // reset timer
     isRunning = false;
     updateDisplay();
     document.getElementById("Status").innerText = "⏳ STUDY TIME";
 }
-
-
-
