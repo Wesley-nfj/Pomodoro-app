@@ -1,4 +1,4 @@
-## ⌛Pomodoor Timer 
+## ⌛Pomodoro Timer 
 
 This is a clean,   user-friendly, and functional Pomodoro Timer built using HTML, CSS, and JavaScript. It helps to boost productivity using the Pomodoro Technique, 25 minutes of focused work followed by short breaks. This project is equally meant to provide an easy understanding of basic web coding, making it suitable for newbies in web development.
 
@@ -15,7 +15,7 @@ This is a clean,   user-friendly, and functional Pomodoro Timer built using HTML
 - Responsive design with CSS and Bootstrap styling
 - No external dependencies
 
-# How it works
+# 💡How it works
 - The countdown starts at 25:00 and decreases every second using JavaScript's setInterval() function
 - The timer automatically stops at 0 and switches its status to " ✅BREAK TIME!
 - The timer can be paused and resumed at any time
