@@ -35,3 +35,9 @@ The reset button refreshes the timer back to 25 seconds, beginning a fresh study
 # 📜 License
 
 This project is licensed under the MIT License.
+
+# --------------- #
+# List of updates
+# Add sound notification 
+# users should choose what they want to use it for.
+# Have the option to add or increase the timer based on preference.
