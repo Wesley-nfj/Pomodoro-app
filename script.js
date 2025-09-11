@@ -1,6 +1,6 @@
 let timer;
-let studyTime = 1 * 60;    // You can change this to 25*60 for 25 minutes
-let breakTime = 5 * 60;    // You can change this to 5*60 for 5 minutes
+let studyTime = 1 * 60;    
+let breakTime = 5 * 60;   
 let timeLeft = studyTime;
 let isRunning = false;
 let onBreak = false;
@@ -25,16 +25,16 @@ function startTimer() {
                 timeLeft--;
                 updateDisplay();
             } else {
-                // Countdown finished
+                
                 clearInterval(timer);
                 isRunning = false;
 
-                // Play sound
+                
                 sound.muted = false;
                 sound.volume = 0.8;
                 sound.play();
 
-                // Switch between study and break
+                
                 if (!onBreak) {
                     onBreak = true;
                     timeLeft = breakTime;
@@ -47,10 +47,14 @@ function startTimer() {
 
                 updateDisplay();
 
-                // Automatically start next session
-                startTimer();
-            }
-        }, 1000);
+                // Little delay before the next session
+                
+                setTimeout(()=>{
+                  startTimer() 
+                },3000);
+
+        }
+      },  1000);
     }
 }
 
