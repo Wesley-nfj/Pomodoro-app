@@ -1,5 +1,5 @@
 let timer;
-let studyTime = 1 * 60;    
+let studyTime = 25 * 60;    
 let breakTime = 5 * 60;   
 let timeLeft = studyTime;
 let isRunning = false;
@@ -48,7 +48,7 @@ function startTimer() {
                 updateDisplay();
 
                 // Little delay before the next session
-                
+
                 setTimeout(()=>{
                   startTimer() 
                 },3000);
